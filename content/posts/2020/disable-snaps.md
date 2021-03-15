@@ -29,7 +29,7 @@ sudo apt-mark hold snapd
 ## Verify Uninstall
 
 ```bash
-apt list --install | grep snap
+apt list --installed | grep snap
 ```
 
 Check your Output for any snap packages
